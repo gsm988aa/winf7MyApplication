@@ -61,11 +61,14 @@ public class MainActivity extends AppCompatActivity {
         startActivity(intent);
     }
 
-    public void goToSecond2Activity() {
+    public void goTojadeshop1Activity() {
 
-        Intent intent = new Intent(this, Basic2Activity.class);
+        Intent intent = new Intent(this, JS1Activity.class);
         startActivity(intent);
     }
+
+
+
 
 
     @Override

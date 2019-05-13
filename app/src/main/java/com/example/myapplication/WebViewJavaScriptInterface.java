@@ -36,8 +36,8 @@ public class WebViewJavaScriptInterface {
         context.goToSecondActivity();
     }
     @JavascriptInterface
-    public void goToSecond2Activity() {
-        context.goToSecond2Activity();
+    public void goTojadeshop1Activity() {
+        context.goTojadeshop1Activity();
     }
 
 }
