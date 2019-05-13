@@ -10,15 +10,9 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
         <activity
-            android:name=".Basic2Activity"
-            android:label="@string/title_activity_basic2"
-            android:theme="@style/AppTheme.NoActionBar">
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
-
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
-        </activity>
+            android:name=".JSN1Activity"
+            android:label="@string/title_activity_jsn1"
+            android:theme="@style/AppTheme.NoActionBar"></activity>
         <activity
             android:name=".BasicActivity"
             android:label="Winf Shop"
