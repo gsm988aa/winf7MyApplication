@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">My Application</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_basic">BasicActivity</string>
+    <string name="title_activity_jadegeschaeft">JadegeschaeftActivity</string>
+    <string name="jadeg01">jadeg01</string>
+    <string name="jgware1">jgware1</string>
+    <string name="kugelschreiber_lucy">Kugelschreiber Lucy</string>
+    <string name="eur_0_64">EUR 0,64 €</string>
+    <string name="schl_sselband_lanyard">Schlüsselband/Lanyard</string>
+    <string name="eur_3_39">EUR 3,39 €</string>
+    <string name="button">Button</string>
+    <string name="textview">TextView</string>
+    <string name="title_activity_basic2">Basic2Activity</string>
+    <string name="todo">TODO</string>
+</resources>
