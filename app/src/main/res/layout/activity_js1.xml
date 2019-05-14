@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/gray_detail"
+    android:background="@color/ic_launcher_background"
     tools:context=".JS1Activity">
 
     <ScrollView
@@ -28,7 +28,7 @@
                 android:id="@+id/imageButton"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:background="?attr/actionModeBackground"
+                android:background="@color/gray_detail"
                 android:contentDescription="@string/todo"
                 app:srcCompat="@drawable/i2" />
 
@@ -38,15 +38,18 @@
                 android:layout_height="wrap_content"
                 android:fontFamily="sans-serif-light"
                 android:text="@string/kugelschreiber_lucy"
+                android:textColor="#000000"
+                android:textColorLink="#000000"
                 android:textSize="18sp" />
 
             <TextView
                 android:id="@+id/textView2"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:fontFamily="sans-serif-light"
-                android:text="EUR 0,64 €   "
+                android:fontFamily="sans-serif-thin"
+                android:text="@string/eur_0_64"
                 android:textAlignment="textStart"
+                android:textColor="#000000"
                 android:textDirection="rtl"
                 android:textSize="18sp"
                 android:textStyle="bold" />
@@ -55,7 +58,7 @@
                 android:id="@+id/imageButton3"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:background="?attr/actionModeBackground"
+                android:background="@color/gray_detail"
                 android:contentDescription="@string/todo"
                 app:srcCompat="@drawable/i4" />
 
