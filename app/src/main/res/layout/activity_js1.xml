@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/gray_detail"
+    android:background="@color/ic_launcher_background"
     tools:context=".JS1Activity">
 
     <ScrollView
@@ -25,58 +25,570 @@
             android:orientation="vertical">
 
             <ImageButton
-                android:id="@+id/imageButton"
+                android:id="@+id/imageButton02"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:background="?attr/actionModeBackground"
+                android:background="@color/gray_detail"
                 android:contentDescription="@string/todo"
                 app:srcCompat="@drawable/i2" />
 
             <TextView
-                android:id="@+id/textView"
+                android:id="@+id/textView1"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:fontFamily="sans-serif-light"
                 android:text="@string/kugelschreiber_lucy"
+                android:textColor="#000000"
+                android:textColorLink="#000000"
                 android:textSize="18sp" />
 
             <TextView
                 android:id="@+id/textView2"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:fontFamily="sans-serif-light"
-                android:text="EUR 0,64 €   "
+                android:fontFamily="sans-serif-thin"
+                android:text="@string/eur_0_64"
                 android:textAlignment="textStart"
+                android:textColor="#000000"
                 android:textDirection="rtl"
                 android:textSize="18sp"
                 android:textStyle="bold" />
 
             <ImageButton
-                android:id="@+id/imageButton3"
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:background="?attr/actionModeBackground"
-                android:contentDescription="@string/todo"
-                app:srcCompat="@drawable/i4" />
-
-            <Button
-                android:id="@+id/button2"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="@string/button" />
-
-            <ImageButton
-                android:id="@+id/imageButton2"
+                android:id="@+id/imageButton03"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:contentDescription="@string/todo"
                 app:srcCompat="@drawable/i3" />
 
-            <Button
-                android:id="@+id/button3"
+            <TextView
+                android:id="@+id/textView4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif-light"
+                android:text="@string/bleistifte_schwarz"
+                android:textColor="#000000"
+                android:textColorLink="#000000"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:fontFamily="sans-serif-thin"
+                android:text="@string/eur_1_61"
+                android:textAlignment="textStart"
+                android:textColor="#000000"
+                android:textDirection="rtl"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <ImageButton
+                android:id="@+id/imageButton04"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@color/gray_detail"
+                android:contentDescription="@string/todo"
+                app:srcCompat="@drawable/i4" />
+
+            <TextView
+                android:id="@+id/textView6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif-light"
+                android:text="@string/schluesselband_lanyard"
+                android:textColor="#000000"
+                android:textColorLink="#000000"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/textView5"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:fontFamily="sans-serif-thin"
+                android:text="@string/eur_3_39"
+                android:textAlignment="textStart"
+                android:textColor="#000000"
+                android:textDirection="rtl"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <ImageButton
+                android:id="@+id/imageButton05"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:contentDescription="@string/todo"
+                app:srcCompat="@drawable/i5" />
+
+            <TextView
+                android:id="@+id/textView8"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif-light"
+                android:text="@string/filz_schluesselanhaenger"
+                android:textColor="#000000"
+                android:textColorLink="#000000"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/textView7"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:fontFamily="sans-serif-thin"
+                android:text="@string/eur_9_64"
+                android:textAlignment="textStart"
+                android:textColor="#000000"
+                android:textDirection="rtl"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <ImageButton
+                android:id="@+id/imageButton06"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@color/gray_detail"
+                android:contentDescription="@string/todo"
+                app:srcCompat="@drawable/i6" />
+
+            <TextView
+                android:id="@+id/textView10"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif-light"
+                android:text="@string/oeko_spiralheft_a6"
+                android:textColor="#000000"
+                android:textColorLink="#000000"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/textView9"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:fontFamily="sans-serif-thin"
+                android:text="@string/eur_3_92"
+                android:textAlignment="textStart"
+                android:textColor="#000000"
+                android:textDirection="rtl"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <ImageButton
+                android:id="@+id/imageButton07"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="@string/button" />
+                android:contentDescription="@string/todo"
+                app:srcCompat="@drawable/i7" />
+
+            <TextView
+                android:id="@+id/textView12"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif-light"
+                android:text="@string/schreibblock_din_a_4"
+                android:textColor="#000000"
+                android:textColorLink="#000000"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/textView11"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:fontFamily="sans-serif-thin"
+                android:text="@string/eur_3_07"
+                android:textAlignment="textStart"
+                android:textColor="#000000"
+                android:textDirection="rtl"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <ImageButton
+                android:id="@+id/imageButton08"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@color/gray_detail"
+                android:contentDescription="@string/todo"
+                app:srcCompat="@drawable/i8" />
+
+            <TextView
+                android:id="@+id/textView14"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif-light"
+                android:text="@string/dreieckstuch"
+                android:textColor="#000000"
+                android:textColorLink="#000000"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/textView13"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:fontFamily="sans-serif-thin"
+                android:text="@string/eur_5_36"
+                android:textAlignment="textStart"
+                android:textColor="#000000"
+                android:textDirection="rtl"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <ImageButton
+                android:id="@+id/imageButton09"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:contentDescription="@string/todo"
+                app:srcCompat="@drawable/i9" />
+
+            <TextView
+                android:id="@+id/textView16"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif-light"
+                android:text="@string/herren_t_shirt_graphite"
+                android:textColor="#000000"
+                android:textColorLink="#000000"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/textView15"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:fontFamily="sans-serif-thin"
+                android:text="@string/eur_10_48"
+                android:textAlignment="textStart"
+                android:textColor="#000000"
+                android:textDirection="rtl"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <ImageButton
+                android:id="@+id/imageButton10"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@color/gray_detail"
+                android:contentDescription="@string/todo"
+                app:srcCompat="@drawable/i10" />
+
+            <TextView
+                android:id="@+id/textView18"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif-light"
+                android:text="@string/herren_hooded_sweat"
+                android:textColor="#000000"
+                android:textColorLink="#000000"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/textView17"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:fontFamily="sans-serif-thin"
+                android:text="@string/eur_26_54"
+                android:textAlignment="textStart"
+                android:textColor="#000000"
+                android:textDirection="rtl"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <ImageButton
+                android:id="@+id/imageButton11"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@color/gray_detail"
+                android:contentDescription="@string/todo"
+                app:srcCompat="@drawable/i11" />
+
+            <TextView
+                android:id="@+id/textView19"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif-light"
+                android:text="@string/damen_hooded_sweat"
+                android:textColor="#000000"
+                android:textColorLink="#000000"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/textView20"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:fontFamily="sans-serif-thin"
+                android:text="@string/eur_26_66"
+                android:textAlignment="textStart"
+                android:textColor="#000000"
+                android:textDirection="rtl"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <ImageButton
+                android:id="@+id/imageButton12"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@color/gray_detail"
+                android:contentDescription="@string/todo"
+                app:srcCompat="@drawable/i12" />
+
+            <TextView
+                android:id="@+id/textView21"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif-light"
+                android:text="@string/fleece_jacke_grau"
+                android:textColor="#000000"
+                android:textColorLink="#000000"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/textView22"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:fontFamily="sans-serif-thin"
+                android:text="@string/eur_27_99"
+                android:textAlignment="textStart"
+                android:textColor="#000000"
+                android:textDirection="rtl"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <ImageButton
+                android:id="@+id/imageButton13"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@color/gray_detail"
+                android:contentDescription="@string/todo"
+                app:srcCompat="@drawable/i13" />
+
+            <TextView
+                android:id="@+id/textView23"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif-light"
+                android:text="@string/graduierungshut"
+                android:textColor="#000000"
+                android:textColorLink="#000000"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/textView24"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:fontFamily="sans-serif-thin"
+                android:text="@string/eur_24_40"
+                android:textAlignment="textStart"
+                android:textColor="#000000"
+                android:textDirection="rtl"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <ImageButton
+                android:id="@+id/imageButton14"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@color/gray_detail"
+                android:contentDescription="@string/todo"
+                app:srcCompat="@drawable/i14" />
+
+            <TextView
+                android:id="@+id/textView25"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif-light"
+                android:text="@string/usb_stick_rot"
+                android:textColor="#000000"
+                android:textColorLink="#000000"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/textView26"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:fontFamily="sans-serif-thin"
+                android:text="@string/eur_20_99"
+                android:textAlignment="textStart"
+                android:textColor="#000000"
+                android:textDirection="rtl"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <ImageButton
+                android:id="@+id/imageButton15"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@color/gray_detail"
+                android:contentDescription="@string/todo"
+                app:srcCompat="@drawable/i15" />
+
+            <TextView
+                android:id="@+id/textView27"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif-light"
+                android:text="@string/taschenlampe_mit_flaschen_ffner"
+                android:textColor="#000000"
+                android:textColorLink="#000000"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/textView28"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:fontFamily="sans-serif-thin"
+                android:text="@string/eur_2_98"
+                android:textAlignment="textStart"
+                android:textColor="#000000"
+                android:textDirection="rtl"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <ImageButton
+                android:id="@+id/imageButton16"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@color/gray_detail"
+                android:contentDescription="@string/todo"
+                app:srcCompat="@drawable/i16" />
+
+            <TextView
+                android:id="@+id/textView29"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif-light"
+                android:text="@string/rfid_schutzkarte"
+                android:textColor="#000000"
+                android:textColorLink="#000000"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/textView30"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:fontFamily="sans-serif-thin"
+                android:text="@string/eur_3_86"
+                android:textAlignment="textStart"
+                android:textColor="#000000"
+                android:textDirection="rtl"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <ImageButton
+                android:id="@+id/imageButton17"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@color/gray_detail"
+                android:contentDescription="@string/todo"
+                app:srcCompat="@drawable/i17" />
+
+            <TextView
+                android:id="@+id/textView31"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif-light"
+                android:text="@string/men_s_running_shirt"
+                android:textColor="#000000"
+                android:textColorLink="#000000"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/textView32"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:fontFamily="sans-serif-thin"
+                android:text="@string/eur_17_98"
+                android:textAlignment="textStart"
+                android:textColor="#000000"
+                android:textDirection="rtl"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <ImageButton
+                android:id="@+id/imageButton18"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@color/gray_detail"
+                android:contentDescription="@string/todo"
+                app:srcCompat="@drawable/i18" />
+
+            <TextView
+                android:id="@+id/textView33"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif-light"
+                android:text="@string/vliestasche"
+                android:textColor="#000000"
+                android:textColorLink="#000000"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/textView34"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:fontFamily="sans-serif-thin"
+                android:text="@string/eur_3_56"
+                android:textAlignment="textStart"
+                android:textColor="#000000"
+                android:textDirection="rtl"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <ImageButton
+                android:id="@+id/imageButton19"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@color/gray_detail"
+                android:contentDescription="@string/todo"
+                app:srcCompat="@drawable/i19" />
+
+            <TextView
+                android:id="@+id/textView35"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif-light"
+                android:text="@string/metall_trinkflasche"
+                android:textColor="#000000"
+                android:textColorLink="#000000"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/textView36"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:fontFamily="sans-serif-thin"
+                android:text="@string/eur_19_02"
+                android:textAlignment="textStart"
+                android:textColor="#000000"
+                android:textDirection="rtl"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <ImageButton
+                android:id="@+id/imageButton20"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@color/gray_detail"
+                android:contentDescription="@string/todo"
+                app:srcCompat="@drawable/i20" />
+
+            <TextView
+                android:id="@+id/textView37"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif-light"
+                android:text="@string/kaffeebecher_rot"
+                android:textColor="#000000"
+                android:textColorLink="#000000"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/textView38"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:fontFamily="sans-serif-thin"
+                android:text="@string/eur_7_29"
+                android:textAlignment="textStart"
+                android:textColor="#000000"
+                android:textDirection="rtl"
+                android:textSize="18sp"
+                android:textStyle="bold" />
 
         </LinearLayout>
     </ScrollView>
