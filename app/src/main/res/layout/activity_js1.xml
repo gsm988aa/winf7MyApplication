@@ -7,6 +7,15 @@
     android:background="@color/ic_launcher_background"
     tools:context=".JS1Activity">
 
+
+        <WebView
+            android:id="@+id/webView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+
+
+
     <ScrollView
         android:id="@+id/scrollview"
         android:layout_width="wrap_content"

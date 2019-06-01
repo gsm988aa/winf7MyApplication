@@ -7,16 +7,16 @@ import android.widget.Toast;
 /**
  * This class contains all of the functions used by JavaScript to call Java Functions
  */
-public class WebViewJavaScriptInterface {
+public class WebViewJavaScriptInterface2 {
 
-    private MainActivity context;
+    private JS1Activity context;
 
 
 
     /*
      * Need a reference to the context in order to execute Java code.
      */
-    public WebViewJavaScriptInterface(MainActivity context) {
+    public WebViewJavaScriptInterface2(JS1Activity context) {
         this.context = context;
     }
 
