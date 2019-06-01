@@ -64,6 +64,7 @@ public class MainActivity extends AppCompatActivity {
     public void goTojadeshop1Activity() {
 
         Intent intent = new Intent(this, JS1Activity.class);
+       // Intent intent = new Intent(this, Main2Activity.class);
         startActivity(intent);
     }
 
